@@ -2,7 +2,6 @@ import matplotlib
 matplotlib.use('Agg')  # Set the backend to non-interactive Agg
 
 from flask import Flask, request, jsonify, render_template
-import numpy as np
 import pandas as pd
 from prophet import Prophet
 import json
